@@ -1,0 +1,14 @@
+body {
+  width: 75%;
+  margin-left: 15%;
+}
+div {
+  margin: 7%;
+}
+#input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;  
+}
+
+

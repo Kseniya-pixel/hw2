@@ -1,0 +1,37 @@
+div .done {
+  background-color: lightgrey;
+}
+
+#todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 17px;
+  height: 25px;
+  width: 70%;
+  border-style: solid;
+  border-width: 3px;
+  overflow: hidden;
+}
+
+#todo:hover button {
+  display: block;
+  margin-right: 0;
+}
+
+#deleteButton {
+  display: none;
+  height: 30px;
+  width: 30%;
+  border: 3px #dd2121;
+  background: #dd2121;
+  font-size: 15px;
+}
+
+span {
+  overflow: hidden;
+  width: 65%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
